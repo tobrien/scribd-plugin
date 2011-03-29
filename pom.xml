@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.codehaus.cjcook</groupId>
+	<groupId>com.discursive.maven</groupId>
 	<artifactId>scribd-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>1.1-SNAPSHOT</version>
@@ -142,20 +142,15 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-			<id>cjcook-releases</id>
-			<name>Common Java Cookbook M2 Repository</name>
-			<url>dav:https://dav.codehaus.org/repository/cjcook/</url>
+			<id>discursive-releases</id>
+			<name>Discursive Releases</name>
+			<url>http://build.discursive.com/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>cjcook-snapshots</id>
-			<name>Common Java Cookbook Snapshots M2 Repository</name>
-			<url>dav:https://dav.codehaus.org/snapshots.repository/cjcook/</url>
+			<id>discursive-snapshots</id>
+			<name>Discursive Snapshots</name>
+			<url>http://build.discursive.com/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-		<site>
-			<id>cjcook-releases</id>
-			<url>dav:https://dav.codehaus.org/cjcook/scribd-plugin</url>
-		</site>
-
 	</distributionManagement>
 	<scm>
 		<connection>scm:git:git://github.com/tobrien/scribd-plugin.git</connection>
